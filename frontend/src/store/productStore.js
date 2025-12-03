@@ -1,6 +1,7 @@
 import { create } from "zustand";
 
-const API = "http://localhost:5000/api/product"; // your backend URL
+const API = import.meta.env.VITE_API_URL;
+// your backend URL
 
 export const useProductStore = create((set, get) => ({
   product: [],
