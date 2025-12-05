@@ -5,9 +5,9 @@ const Container = () => {
   return (
     <div>
       <div className="w-full bg-amber-300 font-bold text-gray-700 text-2xl flex justify-center py-4">
-        Products Cambodai.
+        Products Cambodai
       </div>
-      <div className="bg-gray-100">
+      <div className="mt-8">
         <Card />
       </div>
     </div>
