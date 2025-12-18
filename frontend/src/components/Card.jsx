@@ -30,7 +30,7 @@ const Card = () => {
       <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {product.map((item) => (
           <div key={item._id} className="bg-gray-200 p-4 rounded shadow">
-            <p>Name: {item.name}</p>
+            <p className="font-bold">{item.name}</p>
             <p>Price: {item.price} ៛</p>
 
             <div className="flex justify-end gap-3 mt-3">
